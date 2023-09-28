@@ -1,0 +1,1216 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 8074 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/sandh/Razen's Odyssey
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+10200
+Successfully changed project path to: C:/Users/sandh/Razen's Odyssey
+C:/Users/sandh/Razen's Odyssey
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17204] Host "[IP] 192.168.0.41 [Port] 0 [Flags] 2 [Guid] 2222594849 [EditorId] 2222594849 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3MBCRHK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17204] Host "[IP] 192.168.0.41 [Port] 0 [Flags] 2 [Guid] 2222594849 [EditorId] 2222594849 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3MBCRHK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 75.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/sandh/Razen's Odyssey/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX150 (ID=0x1d10)
+    Vendor:   NVIDIA
+    VRAM:     1983 MB
+    Driver:   27.21.14.5763
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.053773 seconds.
+- Loaded All Assemblies, in  1.249 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.767 seconds
+Domain Reload Profiling: 2012ms
+	BeginReloadAssembly (486ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (106ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (195ms)
+	LoadAllAssembliesAndSetupDomain (414ms)
+		LoadAssemblies (481ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (407ms)
+			TypeCache.Refresh (403ms)
+				TypeCache.ScanAssembly (358ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (768ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (587ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (16ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (384ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.216 seconds
+Refreshing native plugins compatible for Editor in 10.40 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.416 seconds
+Domain Reload Profiling: 3621ms
+	BeginReloadAssembly (380ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (1627ms)
+		LoadAssemblies (1090ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (748ms)
+			TypeCache.Refresh (678ms)
+				TypeCache.ScanAssembly (632ms)
+			ScanForSourceGeneratedMonoScriptInfo (55ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1418ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1077ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (158ms)
+			ProcessInitializeOnLoadAttributes (786ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 13.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4003 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (244.4 KB). Loaded Objects now: 4460.
+Memory consumption went from 141.3 MB to 141.0 MB.
+Total: 8.944900 ms (FindLiveObjects: 0.426200 ms CreateObjectMapping: 0.395700 ms MarkObjects: 7.812800 ms  DeleteObjects: 0.309000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 449721.382088 seconds.
+  path: Assets/tiles/building/tileset_1 (1)-fotor-2023092818502.png
+  artifactKey: Guid(3d3005739acfd7341b36dcf0e525dc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tiles/building/tileset_1 (1)-fotor-2023092818502.png using Guid(3d3005739acfd7341b36dcf0e525dc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8e36a08f506be13ac43eb5d46af25e') in 0.083607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 64.390080 seconds.
+  path: Assets/tiles/building/tileset_1 (1)-fotor-2023092818502.png
+  artifactKey: Guid(3d3005739acfd7341b36dcf0e525dc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tiles/building/tileset_1 (1)-fotor-2023092818502.png using Guid(3d3005739acfd7341b36dcf0e525dc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e58f1d9352a3ad03ec4de930cd478f') in 1.580601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 370
+========================================================================
+Received Import Request.
+  Time since last request: 77.933548 seconds.
+  path: Assets/tiles/Earth/Newworld.prefab
+  artifactKey: Guid(798f4effe64d9fb4f9a4eca69dee6b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tiles/Earth/Newworld.prefab using Guid(798f4effe64d9fb4f9a4eca69dee6b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5968602ec9842fcf8f2c3b6c7607dcdd') in 2.052494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2007
+========================================================================
+Received Import Request.
+  Time since last request: 14.140779 seconds.
+  path: Assets/tiles/Earth/tilese_48.asset
+  artifactKey: Guid(60bf7959815446c408c106fd7f2c7bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/tiles/Earth/tilese_48.asset using Guid(60bf7959815446c408c106fd7f2c7bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ffef85189d1552ec22b6f72723522b') in 0.004453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1344.396283 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player
+  artifactKey: Guid(40824919230314a43808d3bc10bb81a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player using Guid(40824919230314a43808d3bc10bb81a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0191b28574caaa1a038fa582ec718e') in 0.002008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.105130 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_00.png
+  artifactKey: Guid(264ca2ebeb45c0b4eb37f808a9470be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_00.png using Guid(264ca2ebeb45c0b4eb37f808a9470be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e15ab21f1eb96ccd926f5483d785d1a') in 0.062482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_06.png
+  artifactKey: Guid(ac6dd323c09587c4a94f87b2774af033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_06.png using Guid(ac6dd323c09587c4a94f87b2774af033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '592f3970562d0518538a1eb6579b3bee') in 0.039638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_09.png
+  artifactKey: Guid(900f9023db05c584ba0cfd8a58760eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_09.png using Guid(900f9023db05c584ba0cfd8a58760eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b5e98afb81345ee034ceb98f3e58f0') in 0.051709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_04.png
+  artifactKey: Guid(942744e6fcdc07245981c4ac206cc367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_04.png using Guid(942744e6fcdc07245981c4ac206cc367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba837f06b16fd67f15a8d78a9240f370') in 0.064156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_02.png
+  artifactKey: Guid(90c4d0f444db44141839966d44bf8892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_02.png using Guid(90c4d0f444db44141839966d44bf8892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7489a29c71b8bff3b9ea65a3a2e4fdd') in 0.063506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_05.png
+  artifactKey: Guid(faa65bf90fcf11942bf17a896192d8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_05.png using Guid(faa65bf90fcf11942bf17a896192d8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c935b8b62039c1ada25fc3b7b5e08138') in 0.053313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 18.676535 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_0.png
+  artifactKey: Guid(217a34da322f09a4f915f2ca6befab73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_0.png using Guid(217a34da322f09a4f915f2ca6befab73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238492c2abc1ba30c70fe0dfd538360b') in 0.038572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_2.png
+  artifactKey: Guid(96cb4b8e1aa47dd448a16d526497b6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_2.png using Guid(96cb4b8e1aa47dd448a16d526497b6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cfb27839d2200829039051503a23064') in 0.032996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_5.png
+  artifactKey: Guid(5ef6074baf1ac9c44b4f598dc1e2da07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_5.png using Guid(5ef6074baf1ac9c44b4f598dc1e2da07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73fb26c90429ead60ee84a2e6e08ae4d') in 0.050177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_6.png
+  artifactKey: Guid(2f87bb987a3c98841950749dd38c9fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_6.png using Guid(2f87bb987a3c98841950749dd38c9fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02b7edebabcfa273e4f9ba2700b5072') in 0.065690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 31.743899 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/die/player_die_00.png
+  artifactKey: Guid(21f4782181a67484fb7777d7e69a047b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/die/player_die_00.png using Guid(21f4782181a67484fb7777d7e69a047b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49bb75bf9779e1c54c8d3e5e507d620') in 0.033892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/die/player_die_03.png
+  artifactKey: Guid(e797804aa4fb9764899b0a45a687db33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/die/player_die_03.png using Guid(e797804aa4fb9764899b0a45a687db33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4aee9ec681ad62ccb013a4874f9a91a') in 0.029232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/die/player_die_07.png
+  artifactKey: Guid(b8ad7e7a712936143a9a2762872c8088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/die/player_die_07.png using Guid(b8ad7e7a712936143a9a2762872c8088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ebd9221714c7e6f24129d42f7d9aba') in 0.039475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/die/player_die_08.png
+  artifactKey: Guid(3d0b2fd99f63065439ef70a16bd2d41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/die/player_die_08.png using Guid(3d0b2fd99f63065439ef70a16bd2d41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5a31d6b7a92644fa2d6d40dbaa43f7') in 0.036853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/die/player_die_05.png
+  artifactKey: Guid(868d645aac17ee8438d3699625c37fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/die/player_die_05.png using Guid(868d645aac17ee8438d3699625c37fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a62621ce2555b1628014e55e5bf302') in 0.028945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 26.734554 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run/player_run_00.png
+  artifactKey: Guid(759ec8c87a445a048b5f21dd5e7ad2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run/player_run_00.png using Guid(759ec8c87a445a048b5f21dd5e7ad2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd417789875f384a742afff037c9de53c') in 0.032169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run/player_run_03.png
+  artifactKey: Guid(87a0d4e5518514c46aa2b422af0b4b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run/player_run_03.png using Guid(87a0d4e5518514c46aa2b422af0b4b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69177f7faed2e99fb465aa8cbd80dd06') in 0.036117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run/player_run_07.png
+  artifactKey: Guid(739346d214513f6429b25fa980e1e6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run/player_run_07.png using Guid(739346d214513f6429b25fa980e1e6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0595750e893c9fa00affcb6188708494') in 0.043987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run
+  artifactKey: Guid(72e0ba4037054f34487a0bca62b41947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run using Guid(72e0ba4037054f34487a0bca62b41947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03513e4b566c4f02d4211f54e238afc6') in 0.000947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run/player_run_08.png
+  artifactKey: Guid(4ee018a2243bf0a4f81aadad200fb825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run/player_run_08.png using Guid(4ee018a2243bf0a4f81aadad200fb825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d9790f5459b0f6d3a2080a9a6f963f') in 0.048561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run/player_run_09.png
+  artifactKey: Guid(e97d2afa62f5909498d88215db2ae17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run/player_run_09.png using Guid(e97d2afa62f5909498d88215db2ae17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b92520b0cc385efa32a1f1fbcf090bb') in 0.051222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 109.752783 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_0.png
+  artifactKey: Guid(217a34da322f09a4f915f2ca6befab73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_0.png using Guid(217a34da322f09a4f915f2ca6befab73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b47ef1a65a2a3420c3fafac99eeaf07') in 0.039073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001436 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_1.png
+  artifactKey: Guid(12eee55a7928b2b4a8ab2372add3c3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_1.png using Guid(12eee55a7928b2b4a8ab2372add3c3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65568bba7c77d4acccd7364d59eb995a') in 0.039136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_5.png
+  artifactKey: Guid(5ef6074baf1ac9c44b4f598dc1e2da07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_5.png using Guid(5ef6074baf1ac9c44b4f598dc1e2da07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbe6ed30ce12a81ab1796821d2d88f8') in 0.044596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_6.png
+  artifactKey: Guid(2f87bb987a3c98841950749dd38c9fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_6.png using Guid(2f87bb987a3c98841950749dd38c9fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2484037d579c4ff39f2c47c1ca1781e2') in 0.037923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_4.png
+  artifactKey: Guid(8337944ca1650be46aeff571949bc415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_4.png using Guid(8337944ca1650be46aeff571949bc415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee18065cf01b17c52b5adf95532451a') in 0.042073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.468 seconds
+Refreshing native plugins compatible for Editor in 11.68 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.644 seconds
+Domain Reload Profiling: 4104ms
+	BeginReloadAssembly (503ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (44ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (141ms)
+	RebuildCommonClasses (96ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (762ms)
+		LoadAssemblies (975ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (37ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2645ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (761ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (512ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 17.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3997 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.7 KB). Loaded Objects now: 4480.
+Memory consumption went from 144.9 MB to 144.7 MB.
+Total: 13.320400 ms (FindLiveObjects: 0.809400 ms CreateObjectMapping: 1.735100 ms MarkObjects: 10.360600 ms  DeleteObjects: 0.412600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.505 seconds
+Refreshing native plugins compatible for Editor in 13.48 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.992 seconds
+Domain Reload Profiling: 6488ms
+	BeginReloadAssembly (314ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (1005ms)
+		LoadAssemblies (1138ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (4993ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1634ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (307ms)
+			ProcessInitializeOnLoadAttributes (1114ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
+			AfterProcessingInitializeOnLoad (37ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (64ms)
+Refreshing native plugins compatible for Editor in 16.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3998 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (216.8 KB). Loaded Objects now: 4484.
+Memory consumption went from 145.2 MB to 145.0 MB.
+Total: 7.302900 ms (FindLiveObjects: 0.503700 ms CreateObjectMapping: 0.516000 ms MarkObjects: 5.986200 ms  DeleteObjects: 0.295500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1516.999995 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_00.png
+  artifactKey: Guid(24978e4d8f59f9c4098f826e3e79c1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_00.png using Guid(24978e4d8f59f9c4098f826e3e79c1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909a641da9c07c4068116198dd78089d') in 0.232534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_02.png
+  artifactKey: Guid(a2b7f6d9cf70a3e46a3b45dab70fc721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_02.png using Guid(a2b7f6d9cf70a3e46a3b45dab70fc721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f94b90e48bf24359bb877913f75f24') in 0.079076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle
+  artifactKey: Guid(189bba34c032b654f97e9eba37696823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle using Guid(189bba34c032b654f97e9eba37696823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d9b1ebd3e7c29923f909a667a4ba62') in 0.001046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_03.png
+  artifactKey: Guid(06a55fe7d8b79724e9eba2da030c1d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_03.png using Guid(06a55fe7d8b79724e9eba2da030c1d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1369e71b74583d91ab345871fff0c6a0') in 0.081235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_04.png
+  artifactKey: Guid(dad4824fc0bcb6a4b9975df5f04eecd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_04.png using Guid(dad4824fc0bcb6a4b9975df5f04eecd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bba0df815da4942f67d7fb2f8d0a07') in 0.077255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 54.239167 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_00 1.png
+  artifactKey: Guid(2d058fbec3a1cb145aeb1f3303e09124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_00 1.png using Guid(2d058fbec3a1cb145aeb1f3303e09124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ef0c85254f088850c2ac7d8632ab62') in 0.056210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_07 1.png
+  artifactKey: Guid(dbe1a02645eea01408e43900b8a3dd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_07 1.png using Guid(dbe1a02645eea01408e43900b8a3dd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f3b200da100dc4f5e71260b4a91d22') in 0.047244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 158.360293 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_00.png
+  artifactKey: Guid(24978e4d8f59f9c4098f826e3e79c1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_00.png using Guid(24978e4d8f59f9c4098f826e3e79c1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c693cdbc79603425a64356f4e13dfa80') in 0.048926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_02.png
+  artifactKey: Guid(a2b7f6d9cf70a3e46a3b45dab70fc721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_02.png using Guid(a2b7f6d9cf70a3e46a3b45dab70fc721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a7d2ad69bac21316aa2e4210754be8') in 0.050421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_03.png
+  artifactKey: Guid(06a55fe7d8b79724e9eba2da030c1d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_03.png using Guid(06a55fe7d8b79724e9eba2da030c1d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86eb143328918231035eb619f38772e8') in 0.047072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_04.png
+  artifactKey: Guid(dad4824fc0bcb6a4b9975df5f04eecd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/idle/bee_idle_04.png using Guid(dad4824fc0bcb6a4b9975df5f04eecd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a829d45659a7622e85d40b108d3c1b4') in 0.046803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 14.194360 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_00.png
+  artifactKey: Guid(3d4bd5e2fa05de142b02b2b1da65f08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_00.png using Guid(3d4bd5e2fa05de142b02b2b1da65f08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b083dc81e66cecb64e46df0a2db192') in 0.052478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_02.png
+  artifactKey: Guid(78e803390e753eb478752868b5b0b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_02.png using Guid(78e803390e753eb478752868b5b0b6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7befc9a7d2b5bd8418009ec7452065b1') in 0.044957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_07.png
+  artifactKey: Guid(8face0681453381488bffe41971fb5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_07.png using Guid(8face0681453381488bffe41971fb5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6200cced70c6b21adf7d9196f466be3') in 0.055108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_03.png
+  artifactKey: Guid(14bcd5c189866954f9b07cc6331bc1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_03.png using Guid(14bcd5c189866954f9b07cc6331bc1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74c46edb5e68bf3b545b033c0ba993b') in 0.054748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_06.png
+  artifactKey: Guid(888bcbe206d36e542ae9d81785698e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_06.png using Guid(888bcbe206d36e542ae9d81785698e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1c0acd7ba1883f7d6a9e789d1bdb6a') in 0.044564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 20.743313 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_00.png
+  artifactKey: Guid(3d4bd5e2fa05de142b02b2b1da65f08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_00.png using Guid(3d4bd5e2fa05de142b02b2b1da65f08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab6f31d569f571cec98432d0ccd8ddf') in 0.048395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.027244 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_01.png
+  artifactKey: Guid(2a879cfa4c4642348a9caf51623104bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_01.png using Guid(2a879cfa4c4642348a9caf51623104bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e953abb9e71dfad7a737c47419a06e') in 0.051720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_04.png
+  artifactKey: Guid(d238a4c1a03c6214598bf42442e81e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_04.png using Guid(d238a4c1a03c6214598bf42442e81e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458f4599a96d946eafa5bde0a298ba67') in 0.064688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_03.png
+  artifactKey: Guid(14bcd5c189866954f9b07cc6331bc1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_03.png using Guid(14bcd5c189866954f9b07cc6331bc1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1382d36fbfc50afe90f62740069dbf30') in 0.056229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_06.png
+  artifactKey: Guid(888bcbe206d36e542ae9d81785698e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/die/bee_die_06.png using Guid(888bcbe206d36e542ae9d81785698e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff6f7a17316e108e95c390bdcc7acd4') in 0.049349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.491578 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_00.png
+  artifactKey: Guid(b41208b6fa02c4444b1dfaf45444dce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_00.png using Guid(b41208b6fa02c4444b1dfaf45444dce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab9406751a8b57d6c5f8e3d2f81989f') in 0.041706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_03.png
+  artifactKey: Guid(7b430e5b29a2e704abcabf1a80749520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_03.png using Guid(7b430e5b29a2e704abcabf1a80749520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e9cbdbd72fd2c25aa06ac63cbbc590') in 0.044160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_07.png
+  artifactKey: Guid(1b877f1798166ad4bb8368e42f3fc26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_07.png using Guid(1b877f1798166ad4bb8368e42f3fc26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd32d59bbdcac5ddbc7117115e8d521') in 0.043340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_09.png
+  artifactKey: Guid(486c135d756d5454cb12f935fe2a6795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_09.png using Guid(486c135d756d5454cb12f935fe2a6795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588d8757af08633b6beb58007bcff47f') in 0.054306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_10.png
+  artifactKey: Guid(21b278d62ef2f4842a887747b0e97d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_10.png using Guid(21b278d62ef2f4842a887747b0e97d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab5bdf7edd670761768af6c9bb11981') in 0.051529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_06.png
+  artifactKey: Guid(8e60d478f24fa594296495e240e4078e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_06.png using Guid(8e60d478f24fa594296495e240e4078e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770b06f1b5d2c0a56f8be29a24a519a7') in 0.065316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_08.png
+  artifactKey: Guid(bc27d935b7911f84499b41ef04d30dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_08.png using Guid(bc27d935b7911f84499b41ef04d30dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c93fea7b660cf7bebe0c72ff6f3b98') in 0.062823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 19.493937 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_00.png
+  artifactKey: Guid(b41208b6fa02c4444b1dfaf45444dce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_00.png using Guid(b41208b6fa02c4444b1dfaf45444dce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b85c5409860ffbc66fb667021347ce0') in 0.060471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001032 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_01.png
+  artifactKey: Guid(0ddb32a3979acfc4c923638fc8584f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_01.png using Guid(0ddb32a3979acfc4c923638fc8584f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c366582b048ab48e29bf34d84358cae') in 0.054704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_09.png
+  artifactKey: Guid(486c135d756d5454cb12f935fe2a6795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_09.png using Guid(486c135d756d5454cb12f935fe2a6795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c1cc0d82edd4307e37b5b8d6eb012b') in 0.059534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_12.png
+  artifactKey: Guid(29a5a157ee5437c4480833b15302619f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_12.png using Guid(29a5a157ee5437c4480833b15302619f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a278d2798e50523fa5a73a86b60ce1') in 0.052210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_05.png
+  artifactKey: Guid(c789c61f8474ea949a357d56f6a1225d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_05.png using Guid(c789c61f8474ea949a357d56f6a1225d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c44ee6fa09de5c61560721e9a9e7f7b') in 0.056309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_03.png
+  artifactKey: Guid(7b430e5b29a2e704abcabf1a80749520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_03.png using Guid(7b430e5b29a2e704abcabf1a80749520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c298f6e31b1b35b6045e18e9d57d9a34') in 0.064501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_08.png
+  artifactKey: Guid(bc27d935b7911f84499b41ef04d30dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/attack/bee_attack_08.png using Guid(bc27d935b7911f84499b41ef04d30dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd70cbf7fb38c4d8c774b89b1f45256') in 0.052041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.407325 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/run/bee_run_00.png
+  artifactKey: Guid(f79397209ea5dae42817e00a31fbb880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/run/bee_run_00.png using Guid(f79397209ea5dae42817e00a31fbb880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b379ecec4f3f5e4768dcc8f7cfdb0420') in 0.055849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/run/bee_run_02.png
+  artifactKey: Guid(e286fd3c0f9e28945a1c9dc85cf4c580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/run/bee_run_02.png using Guid(e286fd3c0f9e28945a1c9dc85cf4c580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596b3d6802ce7b9e921c5a859928310c') in 0.063292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/run/bee_run_03.png
+  artifactKey: Guid(e0aff4b932c261a468dca457326c0368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/run/bee_run_03.png using Guid(e0aff4b932c261a468dca457326c0368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5847299194c66fdc9cbbbef8a5e8b5da') in 0.065571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Enemy/Bee/run/bee_run_06.png
+  artifactKey: Guid(e87869553b5977048b230eeb0a52d5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Enemy/Bee/run/bee_run_06.png using Guid(e87869553b5977048b230eeb0a52d5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd1542c79afe2f618e612716eee6e00') in 0.070119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 38.694471 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_0.png
+  artifactKey: Guid(217a34da322f09a4f915f2ca6befab73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_0.png using Guid(217a34da322f09a4f915f2ca6befab73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef95bf54e17f9e11617985c85bdc328') in 0.050423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_2.png
+  artifactKey: Guid(96cb4b8e1aa47dd448a16d526497b6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_2.png using Guid(96cb4b8e1aa47dd448a16d526497b6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09b9684494582a08987d6a923541353') in 0.055129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_5.png
+  artifactKey: Guid(5ef6074baf1ac9c44b4f598dc1e2da07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_5.png using Guid(5ef6074baf1ac9c44b4f598dc1e2da07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da248118d73fbb17b1dbc06e1c9ebec0') in 0.058670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_6.png
+  artifactKey: Guid(2f87bb987a3c98841950749dd38c9fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_6.png using Guid(2f87bb987a3c98841950749dd38c9fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e80cb4cf7dead731f31828b3966416') in 0.059727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_4.png
+  artifactKey: Guid(8337944ca1650be46aeff571949bc415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/idle/player_idle_4.png using Guid(8337944ca1650be46aeff571949bc415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d38cdbbfed1ab13ee34ad07794769f') in 0.051446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 19.959324 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/die/player_die_00.png
+  artifactKey: Guid(21f4782181a67484fb7777d7e69a047b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/die/player_die_00.png using Guid(21f4782181a67484fb7777d7e69a047b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b977c39a3a4e92c853ef02e33d6e121b') in 0.058660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/die/player_die_02.png
+  artifactKey: Guid(688914e277adddb46bfdd6e88172e2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/die/player_die_02.png using Guid(688914e277adddb46bfdd6e88172e2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8b70bcf01040946d0f9e2e0330d5c1') in 0.071493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/die/player_die_07.png
+  artifactKey: Guid(b8ad7e7a712936143a9a2762872c8088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/die/player_die_07.png using Guid(b8ad7e7a712936143a9a2762872c8088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b7b89d1e293686e5a95e6e43d98094') in 0.069415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/die/player_die_06.png
+  artifactKey: Guid(6b413d6c971c15948bdc0e5f9196110c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/die/player_die_06.png using Guid(6b413d6c971c15948bdc0e5f9196110c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f61a4cfc9fbf3ac618595c2530dbcc') in 0.064424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/die/player_die_05.png
+  artifactKey: Guid(868d645aac17ee8438d3699625c37fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/die/player_die_05.png using Guid(868d645aac17ee8438d3699625c37fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f671b4aed14fa79ffeff4d51c865f91f') in 0.058465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 16.612868 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_00.png
+  artifactKey: Guid(264ca2ebeb45c0b4eb37f808a9470be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_00.png using Guid(264ca2ebeb45c0b4eb37f808a9470be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87838f478cf597a3f1ec63be3fadabb8') in 0.055228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_09.png
+  artifactKey: Guid(900f9023db05c584ba0cfd8a58760eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_09.png using Guid(900f9023db05c584ba0cfd8a58760eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71bed685b4323193baaf76e2bd6bc33') in 0.052805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_08.png
+  artifactKey: Guid(885cca944ff9a8f4ca117b424a313809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_08.png using Guid(885cca944ff9a8f4ca117b424a313809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6da35687079b66aa04fb43b2995df7') in 0.054738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_07.png
+  artifactKey: Guid(46b19c8dc37a7914ea494f3d3d3fbee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_07.png using Guid(46b19c8dc37a7914ea494f3d3d3fbee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e3d5b7098074440a4caff3ed379734') in 0.051319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_02.png
+  artifactKey: Guid(90c4d0f444db44141839966d44bf8892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_02.png using Guid(90c4d0f444db44141839966d44bf8892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853268ce6d7064a46609b22108f60193') in 0.047561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.107877 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_00.png
+  artifactKey: Guid(264ca2ebeb45c0b4eb37f808a9470be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_00.png using Guid(264ca2ebeb45c0b4eb37f808a9470be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ad6323b52e494d432e0cdc7e802967') in 0.051417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003466 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_01.png
+  artifactKey: Guid(fb9e191d0f8eb0246920cc76517097d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_01.png using Guid(fb9e191d0f8eb0246920cc76517097d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7da77d532ab517b04c1b2b86f7acc4c') in 0.056395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_06.png
+  artifactKey: Guid(ac6dd323c09587c4a94f87b2774af033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_06.png using Guid(ac6dd323c09587c4a94f87b2774af033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05f227aaddaa6914d7fea478c8dad1c') in 0.061003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_08.png
+  artifactKey: Guid(885cca944ff9a8f4ca117b424a313809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_08.png using Guid(885cca944ff9a8f4ca117b424a313809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627ce99ed6fe443ee492be4153e90b64') in 0.059624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_04.png
+  artifactKey: Guid(942744e6fcdc07245981c4ac206cc367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_04.png using Guid(942744e6fcdc07245981c4ac206cc367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd1ea192adf99a1def0baa40b86d742') in 0.061873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_05.png
+  artifactKey: Guid(faa65bf90fcf11942bf17a896192d8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/climb/player_climb_05.png using Guid(faa65bf90fcf11942bf17a896192d8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d398abb5548215e7393cca5f6b3f39e') in 0.062544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.505654 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/jump/player_fall.png
+  artifactKey: Guid(14a1832cf60d54e42a69ec74d65195ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/jump/player_fall.png using Guid(14a1832cf60d54e42a69ec74d65195ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec26889d0a84a244bc43a06481931b70') in 0.047968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 16.289168 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/jump/player_fall.png
+  artifactKey: Guid(14a1832cf60d54e42a69ec74d65195ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/jump/player_fall.png using Guid(14a1832cf60d54e42a69ec74d65195ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b05669efba2bd7b1ad5a0329d4bdcf8') in 0.050114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002291 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/jump/player_rise.png
+  artifactKey: Guid(64eded0b1cf53ef4a92ea56cba921061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/jump/player_rise.png using Guid(64eded0b1cf53ef4a92ea56cba921061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25d59938e6cf517661605cf6c81436c') in 0.054735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.609925 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_00.png
+  artifactKey: Guid(097cff8f05d0aa44aabb0b216fb13260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_00.png using Guid(097cff8f05d0aa44aabb0b216fb13260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4456dc64dc6b77120c1c500038b49d6d') in 0.051126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_02.png
+  artifactKey: Guid(b23eeca6dbe4b934e8a5e81fd7a587dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_02.png using Guid(b23eeca6dbe4b934e8a5e81fd7a587dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08bc7067511d50651e839917f0f79645') in 0.061114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_07.png
+  artifactKey: Guid(27bb3b7299c02ce45a1e25ea73246c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_07.png using Guid(27bb3b7299c02ce45a1e25ea73246c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377eac1971c759f7a3799294f53d58be') in 0.057594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_10.png
+  artifactKey: Guid(31766abcd72d4864c866be33f0663816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_10.png using Guid(31766abcd72d4864c866be33f0663816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c998eda9c6d62a670537e80a2ed990') in 0.065068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_08.png
+  artifactKey: Guid(29656a86f858337419d5369893991eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_08.png using Guid(29656a86f858337419d5369893991eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc46a5e9936eb323cb62aa376eaffdb') in 0.061583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_05.png
+  artifactKey: Guid(8f11c049a72522a4db25d00c61f42a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_05.png using Guid(8f11c049a72522a4db25d00c61f42a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cec52874da56a3c658eba3632960a9a') in 0.061199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 15.873980 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_00.png
+  artifactKey: Guid(097cff8f05d0aa44aabb0b216fb13260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_00.png using Guid(097cff8f05d0aa44aabb0b216fb13260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10c68fc4a3736d262b52ef34231beeb') in 0.043859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001904 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_01.png
+  artifactKey: Guid(5e47edd5b20eae34a94251b698279fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_01.png using Guid(5e47edd5b20eae34a94251b698279fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947cbd1e8fd561160355041145b6cca1') in 0.045017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_07.png
+  artifactKey: Guid(27bb3b7299c02ce45a1e25ea73246c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_07.png using Guid(27bb3b7299c02ce45a1e25ea73246c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bcc758664c8de0a2537a9fba8642f9e') in 0.062001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_10.png
+  artifactKey: Guid(31766abcd72d4864c866be33f0663816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_10.png using Guid(31766abcd72d4864c866be33f0663816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880cc0b5551959db904d2d09c816d472') in 0.057876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_08.png
+  artifactKey: Guid(29656a86f858337419d5369893991eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_08.png using Guid(29656a86f858337419d5369893991eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1286160c8ed4fa4971ed913e47e72d1f') in 0.047122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_05.png
+  artifactKey: Guid(8f11c049a72522a4db25d00c61f42a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/roll/player_roll_05.png using Guid(8f11c049a72522a4db25d00c61f42a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507258fa4823e93b3949976c6dc84222') in 0.046371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 20.766004 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run/player_run_00.png
+  artifactKey: Guid(759ec8c87a445a048b5f21dd5e7ad2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run/player_run_00.png using Guid(759ec8c87a445a048b5f21dd5e7ad2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48dea16c9971d11130c80c97abfee3a') in 0.040940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003341 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run/player_run_01.png
+  artifactKey: Guid(6a58f1875bb089646bcd5d61eba2b02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run/player_run_01.png using Guid(6a58f1875bb089646bcd5d61eba2b02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3e26d4f536bcb562268edff6c86ad5') in 0.041190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run/player_run_07.png
+  artifactKey: Guid(739346d214513f6429b25fa980e1e6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run/player_run_07.png using Guid(739346d214513f6429b25fa980e1e6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc99d4d1b4af34da6347b731a75bf816') in 0.053759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run/player_run_06.png
+  artifactKey: Guid(1b9b3aa98596d704391028b419d75734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run/player_run_06.png using Guid(1b9b3aa98596d704391028b419d75734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39fcc768cf85a88f0fca94e9385b658d') in 0.049829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run/player_run_09.png
+  artifactKey: Guid(e97d2afa62f5909498d88215db2ae17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run/player_run_09.png using Guid(e97d2afa62f5909498d88215db2ae17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8de583de6b358065daa5ea55e426250') in 0.049013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run/player_run_04.png
+  artifactKey: Guid(7623b50d22ae5664a848160837ba10d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Platformer Tileset/Sprites/Main_Character/Player/run/player_run_04.png using Guid(7623b50d22ae5664a848160837ba10d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0f57ff3af26780cbae55cc0cfb6d35') in 0.069184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
