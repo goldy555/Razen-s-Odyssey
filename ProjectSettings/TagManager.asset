@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Weapon
+  - coin
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -11,8 +15,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - player
+  - weapons
   - 
   - 
   - 
@@ -40,4 +44,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: weapons
+    uniqueID: 1095150381
     locked: 0
