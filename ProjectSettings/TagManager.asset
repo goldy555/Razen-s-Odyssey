@@ -8,6 +8,10 @@ TagManager:
   - Weapon
   - coin
   - Enemy
+  - fire
+  - trap
+  - Traveler
+  - EnemyAttack
   layers:
   - Default
   - TransparentFX
@@ -47,4 +51,7 @@ TagManager:
     locked: 0
   - name: weapons
     uniqueID: 1095150381
+    locked: 0
+  - name: firball
+    uniqueID: 3608205469
     locked: 0
