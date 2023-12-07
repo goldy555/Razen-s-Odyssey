@@ -4,18 +4,17 @@ using UnityEngine;
 
 public class enemy_Attack : MonoBehaviour
 {
-
     private Collider2D attackHitbox;
     private Animator animator;
     private Transform player;
     private playerHP_Bar playerHitpoint;
     public float attackDelay = 1.0f;
     public float damageToPlayer = 20.0f;
+    public float attackRange = 2.0f; 
     private bool isAttacking = false;
-
     private void Start()
     {
-        // Find the attack collider
+        // this tries to find the (weapon) attack collider and debug logs in case it cannot
         Collider2D[] colliders = GetComponents<Collider2D>();
         foreach (var col in colliders)
         {
@@ -28,7 +27,7 @@ public class enemy_Attack : MonoBehaviour
 
         if (attackHitbox == null)
         {
-            Debug.LogError("Attack collider not found!");
+            Debug.LogError("collider missing!");
         }
 
         animator = GetComponent<Animator>();
@@ -40,16 +39,17 @@ public class enemy_Attack : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Player reference not found!");
+            Debug.LogError("Player missing!");
         }
 
         attackHitbox.enabled = false;
     }
-
+    //start attacking coroutine in case the player is near the enemy
     private void Update()
     {
-        //  Attack when space key is pressed
-        if (Input.GetKeyDown(KeyCode.Space) && !isAttacking)
+        float distanceToPlayer = Vector3.Distance(transform.position, player.position);
+
+        if (distanceToPlayer <= attackRange && !isAttacking)
         {
             StartCoroutine(Attack());
         }
@@ -60,22 +60,22 @@ public class enemy_Attack : MonoBehaviour
         isAttacking = true;
         animator.SetBool("isRunning", false);
         animator.SetTrigger("attack");
+     
 
         yield return new WaitForSeconds(attackDelay / 2);
 
-        attackHitbox.enabled = true; // Enable hitbox
+        attackHitbox.enabled = true; 
         yield return new WaitForSeconds(attackDelay / 2);
 
-        attackHitbox.enabled = false; // Disable hitbox
+        attackHitbox.enabled = false; 
         isAttacking = false;
     }
-//function to damage to player in collision area
-
+    
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Enemy attack detected!");
+            Debug.Log("Enemy attacked!");
             playerHitpoint.TakeDamage((int)damageToPlayer);
         }
     }

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//for Npc characters!
+
 public class Npc : MonoBehaviour
 {
     public float detectionRadius = 5.0f; 
@@ -13,17 +13,17 @@ public class Npc : MonoBehaviour
         playerTransform = GameObject.FindGameObjectWithTag("Player").transform; 
         instructionPanel.SetActive(false); 
     }
-
+    //show and hide the panel depending on the player's proximity to the NPC
     private void Update()
     {
         float distanceToPlayer = Vector3.Distance(transform.position, playerTransform.position);
         if (distanceToPlayer <= detectionRadius)
         {
-            instructionPanel.SetActive(true); // Show the panel
+            instructionPanel.SetActive(true); 
         }
         else
         {
-            instructionPanel.SetActive(false); // Hide the panel
+            instructionPanel.SetActive(false); 
         }
     }
 }

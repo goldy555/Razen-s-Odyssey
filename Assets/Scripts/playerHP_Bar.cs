@@ -5,11 +5,14 @@ using UnityEngine.UI;
 
 public class playerHP_Bar : MonoBehaviour
 {
-    public int maxHealth = 100;
+   
     private int currentHealth;
     private playerMovements playerMovementsScript;
+    private bool isAttacking = false;
+    private bool hasRestoredHealth = false;
+   
 
-    // Reference to the HP bar UI elements
+    public int maxHealth = 100;
     public Image hpBarFill; 
     public Image hpBarBackground; 
 
@@ -19,38 +22,48 @@ public class playerHP_Bar : MonoBehaviour
         playerMovementsScript = GetComponent<playerMovements>();
         UpdateHealthBar();
     }
-
+    // if player take damage, update healthbar with the new health after the damage, in case 0, player dies
     public void TakeDamage(int damage)
     {
-
-        
         currentHealth -= damage;
-        Debug.Log("Taking damage. Current health: " + currentHealth);
+        Debug.Log("damaged. health " + currentHealth);
         if (currentHealth < 0) currentHealth = 0;
 
         UpdateHealthBar();
 
-        // Check if the player has died
+       
         if (currentHealth <= 0)
         {
-            
             playerMovementsScript.Die();
         }
     }
 
-   
-//function for updating UI HP bar when player TakeDamage 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.I) && !hasRestoredHealth)
+        {
+            RestoreFullHealth();
+            hasRestoredHealth = true; 
+        }
+    }
+    //to update UI element in the unity
     private void UpdateHealthBar()
     {
         float healthPercentage = (float)currentHealth / maxHealth;
         hpBarFill.fillAmount = healthPercentage;
-
     }
 
-   
-    private void Die()
+    public bool IsPlayerAttacking()
     {
-        
-         GetComponent<Animator>().SetTrigger("Die");
+       
+        return isAttacking;
     }
+
+    //one time full restore health before boss fight
+    public void RestoreFullHealth()
+    {
+        currentHealth = maxHealth;
+        UpdateHealthBar();
+    }
+
 }

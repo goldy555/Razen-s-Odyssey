@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class basicEnemy : MonoBehaviour
 {
-
+    //public in Unity field
     public Transform pointA;
     public Transform pointB;
     public float speed = 5.0f;
@@ -12,6 +12,7 @@ public class basicEnemy : MonoBehaviour
     public float attackRange = 2f;
     public float attackDelay = 1f;
 
+    //private fields
     private Transform targetPoint;
     private Animator animator;
     private Transform player;
@@ -29,11 +30,11 @@ public class basicEnemy : MonoBehaviour
 
         enemyAttackScript = GetComponent<enemy_Attack>();
 
-        // Assuming you have named the attack collider "AttackCollider"
+        
         attackCollider = GetComponent<Collider2D>();
         if (attackCollider)
         {
-            attackCollider.enabled = false;  // Ensure the attack collider is disabled initially
+            attackCollider.enabled = false;  
         }
     }
 
@@ -41,7 +42,7 @@ public class basicEnemy : MonoBehaviour
     {
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
-        if (distanceToPlayer <= chaseRange && distanceToPlayer > attackRange)
+        if (IsWithinChaseZone(player.position) && distanceToPlayer <= chaseRange && distanceToPlayer > attackRange)
         {
             ChasePlayer();
         }
@@ -58,8 +59,22 @@ public class basicEnemy : MonoBehaviour
         }
     }
 
+    //chase zone to check enemy within bounds
+    private bool IsWithinChaseZone(Vector3 position)
+    {
+        float leftBound = Mathf.Min(pointA.position.x, pointB.position.x);
+        float rightBound = Mathf.Max(pointA.position.x, pointB.position.x);
+
+        return position.x >= leftBound && position.x <= rightBound;
+    }
+    //function to make enemy object walk within two point while changing animation to running
     private void Patrol()
     {
+        if (!IsWithinChaseZone(transform.position))
+        {
+            Patrol();
+            return;
+        }
         animator.SetBool("isRunning", true);
 
         bool movingRight = (targetPoint.position.x - transform.position.x) > 0;
@@ -72,7 +87,7 @@ public class basicEnemy : MonoBehaviour
             targetPoint = targetPoint == pointA ? pointB : pointA;
         }
     }
-
+    //function to chase the player if it's at proximity with enemy object
     private void ChasePlayer()
     {
         animator.SetBool("isRunning", true);
@@ -83,7 +98,7 @@ public class basicEnemy : MonoBehaviour
         Vector3 targetPosition = new Vector3(player.position.x, transform.position.y, player.position.z);
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
     }
-
+    //function to trigger attack animation while disabling and enabling attack collider ( weapon one )
     private IEnumerator Attack()
     {
         isAttacking = true;

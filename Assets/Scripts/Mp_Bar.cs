@@ -17,7 +17,7 @@ public class Mp_Bar : MonoBehaviour
         currentMP = maxMP;
         UpdateBar();
     }
-
+    //update the UI MP bar
     private void UpdateBar()
     {
         fillBar.fillAmount = currentMP / (float)maxMP;
@@ -28,13 +28,13 @@ public class Mp_Bar : MonoBehaviour
         }
         else if (currentMP >= maxMP && isRegenerating)
         {
-            isRegenerating = false; // stop regenerating when bar is full
+            isRegenerating = false; 
         }
     }
-
+    //till isRegenrating is false ( mp is greater than 0) will decrease certain amount of MP each time fireball is shot
     public bool UseMP(int amount)
     {
-        if (!isRegenerating && currentMP - amount >= 0) // check to ensure mp is not used during regeneration
+        if (!isRegenerating && currentMP - amount >= 0) 
         {
             currentMP -= amount;
             UpdateBar();
@@ -42,7 +42,7 @@ public class Mp_Bar : MonoBehaviour
         }
         return false;
     }
-
+    // regenrate the MP bar in game if it falls to 0
     private IEnumerator StartMPRegeneration()
     {
         isRegenerating = true;
@@ -52,7 +52,7 @@ public class Mp_Bar : MonoBehaviour
         {
             currentMP++;
             UpdateBar();
-            yield return new WaitForSeconds(10f / maxMP);  //  for gradual filling.
+            yield return new WaitForSeconds(10f / maxMP);  
         }
 
         isRegenerating = false;

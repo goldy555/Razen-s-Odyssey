@@ -13,14 +13,12 @@ public class Fireball : MonoBehaviour
     {
         GetComponent<Rigidbody2D>().velocity = transform.right * speed;
     } */
-
-//collision area detection and enemy damage  
+    //fireball do damage to the enmy and get destroyed when it collides with ground
     private void OnTriggerEnter2D(Collider2D collider)
     {
-
         if (collider.gameObject.CompareTag("Ground"))
         {
-            Destroy(this.gameObject); //<--Destroy fireball prefab
+            Destroy(this.gameObject);
         }
         if (collider.gameObject.CompareTag("Enemy"))
         {
@@ -29,6 +27,7 @@ public class Fireball : MonoBehaviour
             {
                 enemyHealth.TakeDamage(damage);
             }
+            
             Destroy(gameObject);
         }
     }

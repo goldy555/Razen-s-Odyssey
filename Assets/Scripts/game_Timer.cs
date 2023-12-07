@@ -12,7 +12,7 @@ public class game_Timer : MonoBehaviour
     {
         startTime = Time.time;
     }
-//update timer in UI 
+
     void Update()
     {
         float timeSinceStarted = Time.time - startTime;

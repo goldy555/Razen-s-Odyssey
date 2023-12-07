@@ -5,8 +5,8 @@ using UnityEngine;
 public class player_Attack : MonoBehaviour
 {
     public float weaponDamage = 15f;
-
-// function to find and damage enemy 
+    bool isAttacking = false;
+    //damage to the enemy 
     private void AttackEnemy(GameObject enemy)
     {
         if (enemy.CompareTag("Enemy"))

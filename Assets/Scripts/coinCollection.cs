@@ -6,7 +6,7 @@ public class coinCollection : MonoBehaviour
 {
     public AudioSource audioSource;
     public AudioClip coinSound;
-    // This function gets triggered when something enters the coin's trigger collider.
+    // gets triggered when something enters the coin's trigger collider.
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player")) 
